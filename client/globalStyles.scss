@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body {
+    font-size: 18px;
+    background-color: #0D1117;
+    color: #e4e8ec;
+}
+
+button {
+    border-radius: 6px;
+    background-color: #238636;
+    color: #e4e8ec;
+    font-size: 18px;
+    padding: 5px;
+}
+
+button:hover {
+    opacity: 70%;
+}
+
