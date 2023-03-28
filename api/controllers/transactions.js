@@ -1,15 +1,18 @@
 const router = require('express').Router();
 
+const sampleTransactions = [
+    {description: 'transaction #1', price: '10.50'},
+    {description: 'transaction #2', price: '20.95'},
+    {description: 'transaction #3', price: '30.95'},
+    {description: 'transaction #4', price: '40.95'}
+]
+
 router.get('/', (request, response) => {
-    console.log('You hit the GET /transactions endpoint');
-    
-    return response.send('TODO: Build GET /transactions');
+    return response.send(sampleTransactions);
 });
 
 router.post('/', (request, response) => {
-    console.log('You hit the POST /transactions endpoint');
-    
-    return response.send('yay');
+    return response.send('TODO: Implement POST /transactions');
 });
 
 module.exports = router;

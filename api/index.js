@@ -1,9 +1,12 @@
 const express = require('express');
+const cors = require('cors')
 
 const defaultPort = 8080;
 const PORT = process.env.PORT || defaultPort;
 
 const app = express();
+
+app.use(cors());
 
 app.use('/', require('./controllers/index'));
 app.use('/transactions', require('./controllers/transactions'));
