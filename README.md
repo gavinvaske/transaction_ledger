@@ -5,8 +5,8 @@ This repository serves as a playground. My goal in creating it was to spin up a 
 In a production environment, I would not keep the client and the server in the same repo, they would instead be two seperate repos.
 
 ## How to Run this Application
-  1. Follow the steps in "How to run the Server" below
-  2. Follow to steps in "How to run the client" below
+  1. Open a terminal and follow the steps in "How to run the Server" below
+  2. Open a new termal (must be different than step 1) and follow to steps in "How to run the client" below
   3. Open the website via `http://localhost:1234`
 
 ## How to run the Server
