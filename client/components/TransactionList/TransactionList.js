@@ -17,7 +17,7 @@ export default function TransactionList(props) {
 
   return (
     <div id='transaction-list'>
-      {transactions && transactions.map((transaction) => <Transaction {...transaction} />)}\
+      {transactions && transactions.map((transaction) => <Transaction {...transaction} />)}
     </div>
   );
 }

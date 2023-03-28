@@ -5,8 +5,8 @@ require('./navbar.scss');
 export default function Navbar() {
     return (
       <header>
-        <h1>Transaction Ledger</h1>
-        <NavLink to='/'>Home</NavLink>
+        
+        <NavLink to='/'><span class="material-symbols-outlined">home</span></NavLink>
         <NavLink to='/transactions'>Transactions</NavLink>
         <NavLink to='/transactions/new'>Create Transaction</NavLink>
       </header>

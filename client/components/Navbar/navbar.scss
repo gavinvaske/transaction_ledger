@@ -3,10 +3,13 @@ header {
     align-items: center;
     justify-content: left;
     flex-direction: row;
-    padding: 0px 0px 0px 30px;
+    padding: 15px 0px 15px 0px;
+    background: #161B22;
 }
 
 header a {
+    color: #e4e8ec;
+    text-decoration: none;
     margin: 0px;
-    padding: 50px 35px;
+    padding: 0px 25px 0px 25px;
 }
